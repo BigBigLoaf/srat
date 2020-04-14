@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.headder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+}
+ul li {
+    list-style-type:none;
+    display:inline-block ;
+    padding-left: 10px;
+    color: white;
+}
+
+.glavheadder{
+    background: black;
+}
+.thre{
+    width: 330px;
+    height: 380px;  
+    margin-left: 30px;
+}
+.maintext{
+    max-width: 360px;
+    color: white;
+}
+.mainglav{
+   background-color:#191919 ; 
+}
+.logo2{
+    margin: 0;
+    color: #fff9b1;
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:100px 0px;
+
+}
+.vopros{
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: #e9e9e9;
+}
+.maintext h4{
+    font-size: 12px;
+    
+}
+.otvet{
+    margin: 5px 0px;
+}
+.obias{
+    margin:5px 0px;
+}
+.helpmain{
+    background: url(../img/frst.jpg) no-repeat center -400px;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+}
+.helptext{
+    max-width: 450px;
+    padding-top: 250px;
+    margin-left: 240px;
+    padding-bottom: 100px;
+}
+.helptext h2  {
+    margin: 0;
+    font-size: 50px;
+    color: white;
+    margin: 20px 0px;
+}
+.helptext h3  {
+    margin: 0;
+    color: white;
+    font-size: 15px;
+    margin: 15px 0px;
+}
+.citmain{
+    background: url(../img/scnd.jpg) no-repeat center -200px;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+}
+.cittext{
+    color: white;
+    padding: 200px 0px;
+    max-width: 450px;
+    margin-left: 240px;  
+}
+.cittext h2{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.contactmain{
+    background-color: #191919;
+}
+.link{
+    margin: 0;
+    color: #fff9b1;
+    font-size: 40px;
+
+}
+.contacttext h3{
+    color: white;
+    margin: 0;
+    padding: 13px 0px;
+    font-size: 17px;
+}
+.contact{
+    text-align: center;
+}
+.contacttext{
+    padding: 75px 0px;
+}
